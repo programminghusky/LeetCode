@@ -10,6 +10,7 @@ namespace LeetCodeQuestions
     {
         static void Main(string[] args)
         {
+            Console.ReadLine();
         }
     }
 }
