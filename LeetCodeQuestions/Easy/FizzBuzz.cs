@@ -11,7 +11,7 @@ namespace LeetCodeQuestions.Easy
 {
     class FizzBuzz
     {
-        public IList<string> FizzBuzz(int n)
+        public IList<string> FizzBuzz1(int n)
         {
             List<string> buzz = new List<string>();
 
