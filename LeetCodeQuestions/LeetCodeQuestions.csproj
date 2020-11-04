@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Easy\FirstUniqueCharacter.cs" />
     <Compile Include="Easy\FizzBuzz.cs" />
     <Compile Include="Easy\MaximumSubarray.cs" />
     <Compile Include="Easy\ReverseLinkedList.cs" />
