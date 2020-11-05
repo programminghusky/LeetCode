@@ -14,11 +14,12 @@ namespace LeetCodeQuestions.Easy
         public int MaxProfit(int[] prices)
         {
             int maxProfit = 0;
-            int minPrice = int.MaxValue;
-            for(int i = 0; i < prices.Length; i++)
+            for(int i = 1; i < prices.Length; i++)
             {
-                minPrice = Math.Min(prices[i], minPrice);
-                maxProfit = Math.Max(maxProfit, prices[i] - minPrice);
+                if(prices[i] > prices[i-1])
+                {
+                    maxProfit += (prices[i] - prices[i - 1]); 
+                }
             }
             return maxProfit;
     }
