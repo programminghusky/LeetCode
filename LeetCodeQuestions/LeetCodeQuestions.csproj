@@ -52,6 +52,7 @@
     <Compile Include="Easy\MissingNumber.cs" />
     <Compile Include="Easy\ReverseLinkedList.cs" />
     <Compile Include="Easy\RunningSumOf1DArray.cs" />
+    <Compile Include="Easy\SingleNumber.cs" />
     <Compile Include="Easy\TwoSum.cs" />
     <Compile Include="Easy\Valid Parentheses.cs" />
     <Compile Include="Easy\ValidPalindrome.cs" />
