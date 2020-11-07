@@ -55,6 +55,7 @@
     <Compile Include="Easy\SingleNumber.cs" />
     <Compile Include="Easy\TwoSum.cs" />
     <Compile Include="Easy\Valid Parentheses.cs" />
+    <Compile Include="Easy\ValidAnagram.cs" />
     <Compile Include="Easy\ValidPalindrome.cs" />
     <Compile Include="Easy\ValidPalindromeII.cs" />
     <Compile Include="Program.cs" />
