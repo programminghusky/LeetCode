@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Easy\BestTimeToBuyAndSellStock.cs" />
+    <Compile Include="Easy\BestTimeToBuyAndSellStockII.cs" />
     <Compile Include="Easy\FibonacciNumber.cs" />
     <Compile Include="Easy\FirstUniqueCharacter.cs" />
     <Compile Include="Easy\FizzBuzz.cs" />
@@ -58,6 +59,7 @@
     <Compile Include="Easy\ValidAnagram.cs" />
     <Compile Include="Easy\ValidPalindrome.cs" />
     <Compile Include="Easy\ValidPalindromeII.cs" />
+    <Compile Include="Medium\AddTwoNumbers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -66,7 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Hard\" />
-    <Folder Include="Medium\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
