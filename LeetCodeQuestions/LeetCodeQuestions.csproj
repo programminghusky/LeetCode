@@ -49,17 +49,20 @@
     <Compile Include="Easy\FirstUniqueCharacter.cs" />
     <Compile Include="Easy\FizzBuzz.cs" />
     <Compile Include="Easy\HappyNumber.cs" />
+    <Compile Include="Easy\MaximumAverageSubarrayI.cs" />
     <Compile Include="Easy\MaximumSubarray.cs" />
     <Compile Include="Easy\MissingNumber.cs" />
     <Compile Include="Easy\ReverseLinkedList.cs" />
     <Compile Include="Easy\RunningSumOf1DArray.cs" />
     <Compile Include="Easy\SingleNumber.cs" />
+    <Compile Include="Easy\SymmetricTree.cs" />
     <Compile Include="Easy\TwoSum.cs" />
     <Compile Include="Easy\Valid Parentheses.cs" />
     <Compile Include="Easy\ValidAnagram.cs" />
     <Compile Include="Easy\ValidPalindrome.cs" />
     <Compile Include="Easy\ValidPalindromeII.cs" />
     <Compile Include="Medium\AddTwoNumbers.cs" />
+    <Compile Include="Medium\MinimumSizeSubarraySum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
