@@ -34,7 +34,6 @@ namespace LeetCodeQuestions.Medium
                 }
                 length = Math.Max(length, i - windowStart + 1);
             }
-
             return length;
         }
     }
