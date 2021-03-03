@@ -12,18 +12,17 @@ namespace LeetCodeQuestions.Easy
     {
         public double FindMaxAverage(int[] nums, int k)
         {
-
             double maxAvg = int.MinValue;
-            double windowSum = 0;
+            double sum = 0;
             int windowStart = 0;
-            for (int windowEnd = 0; windowEnd < nums.Length; windowEnd++)
+            for(int i = 0; i < nums.Length; i++)
             {
-                windowSum += nums[windowEnd];
-                if (windowEnd >= k - 1)
+                sum += nums[i];
+                if(i >= k - 1)
                 {
-                    double avg = windowSum / k;
+                    double avg = sum / k;
                     maxAvg = Math.Max(avg, maxAvg);
-                    windowSum -= nums[windowStart];
+                    sum -= nums[windowStart];
                     windowStart++;
                 }
             }

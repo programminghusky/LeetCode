@@ -63,6 +63,7 @@
     <Compile Include="Easy\ValidPalindromeII.cs" />
     <Compile Include="Medium\AddTwoNumbers.cs" />
     <Compile Include="Medium\MinimumSizeSubarraySum.cs" />
+    <Compile Include="Medium\SubArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
