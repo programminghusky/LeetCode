@@ -65,9 +65,12 @@
     <Compile Include="Medium\AddTwoNumbers.cs" />
     <Compile Include="Medium\FruitsInToBaskets.cs" />
     <Compile Include="Medium\KDistinctCharacters.cs" />
+    <Compile Include="Medium\LongestRepeatingCharacterReplacement.cs" />
+    <Compile Include="Medium\MaxConsecutiveOnes.cs" />
     <Compile Include="Medium\MinimumSizeSubarraySum.cs" />
     <Compile Include="Medium\MaxSubArray.cs" />
     <Compile Include="Medium\NoRepeatSubstring.cs" />
+    <Compile Include="Medium\PermutationInString.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
