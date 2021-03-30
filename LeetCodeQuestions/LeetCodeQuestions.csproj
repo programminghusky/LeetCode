@@ -63,6 +63,7 @@
     <Compile Include="Easy\ValidPalindromeII.cs" />
     <Compile Include="Medium\2DistinctCharacters.cs" />
     <Compile Include="Medium\AddTwoNumbers.cs" />
+    <Compile Include="Medium\FindAllAnagrams.cs" />
     <Compile Include="Medium\FruitsInToBaskets.cs" />
     <Compile Include="Medium\KDistinctCharacters.cs" />
     <Compile Include="Medium\LongestRepeatingCharacterReplacement.cs" />
